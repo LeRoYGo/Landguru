@@ -1,0 +1,13 @@
+.header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 21px 0;
+}
+.header__logo {
+}
+.header__nav {
+	font-weight: 500;
+}
+.header__button {
+}

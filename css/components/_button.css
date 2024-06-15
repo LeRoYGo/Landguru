@@ -1,0 +1,17 @@
+.button {
+	color: #fff;
+	padding: 13px 31px;
+	border: 1.5px solid #ffffff;
+	border-radius: 50px;
+}
+
+.button--blue {
+	background-color: #1f3e76;
+	border: none;
+}
+
+.button--white {
+	background-color: #ffffff;
+	color: #0f2137;
+	border: none;
+}

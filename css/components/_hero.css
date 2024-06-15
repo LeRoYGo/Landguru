@@ -1,0 +1,54 @@
+.hero {
+	background: rgb(30, 60, 114);
+	background: url('../../img/pattern-bg.svg'), url('../../img/pattern-bg-2.svg') no-repeat 85% 33%,
+		linear-gradient(135deg, rgba(30, 60, 114, 1) 0%, rgba(42, 82, 152, 1) 100%);
+	color: #ffffff;
+	font-size: 1.125rem;
+	overflow: hidden;
+	mask-image: url('../../img/wtf.svg');
+}
+
+.hero__content {
+	position: relative;
+}
+.hero__content-img {
+	position: absolute;
+	right: -15%;
+	top: 0;
+}
+
+.hero-content {
+	padding-top: 160px;
+	padding-bottom: 120px;
+}
+.hero-content__title {
+	font-size: 4.7222em;
+	line-height: 1.2;
+	width: 60%;
+	margin-bottom: 29px;
+}
+.hero-content__subtitle {
+	font-weight: 500;
+	line-height: 2.5;
+	width: 40%;
+	margin-bottom: 38px;
+}
+.hero-content__button {
+	margin-bottom: 38px;
+}
+.hero-content__button + button {
+	margin-left: 22px;
+}
+
+.hero-content__button-video {
+	position: relative;
+	padding-left: 32px;
+}
+.hero-content__button-video::before {
+	content: url('../../img/play.svg');
+	position: absolute;
+	left: 0;
+	top: -10%;
+}
+.hero-content__sponsors {
+}

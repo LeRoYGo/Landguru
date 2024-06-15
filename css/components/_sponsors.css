@@ -1,0 +1,13 @@
+.sponsors {
+	display: flex;
+	align-items: center;
+	color: rgba(255, 255, 255, 0.6);
+}
+.sponsors__list {
+	display: flex;
+	align-items: center;
+	padding-left: 28px;
+}
+.sponsors__item:not(:last-child) {
+	margin-right: 28px;
+}

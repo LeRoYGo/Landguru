@@ -4,3 +4,10 @@
 	padding-left: 15px;
 	padding-right: 15px;
 }
+button {
+	padding: 0;
+	border: none;
+	color: inherit;
+	background-color: transparent;
+	cursor: pointer;
+}
