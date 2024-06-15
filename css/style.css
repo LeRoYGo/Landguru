@@ -1,8 +1,8 @@
-@import '_normalize.css';
-@import '_fonts.css';
-@import '_variables.css';
-@import '_global.css';
-@import '_overall.css';
+@import './_normalize.css';
+@import './_fonts.css';
+@import './_variables.css';
+@import './_global.css';
+@import './_overall.css';
 
 /* components imports */
 @import './components/_button.css';
@@ -16,4 +16,4 @@
 @import './components/step-by-step-instructions/_step-list.css';
 @import './components/step-by-step-instructions/_step-card.css';
 
-@import '_media.css';
+@import './_media.css';
