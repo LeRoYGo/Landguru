@@ -5,10 +5,15 @@
 @import '_overall.css';
 
 /* components imports */
-@import 'components/_hero.css';
-@import 'components/_header.css';
-@import 'components/_nav-bar.css';
 @import 'components/_button.css';
-@import 'components/_sponsors.css';
+
+@import 'components/hero/_hero.css';
+@import 'components/hero/_header.css';
+@import 'components/hero/_nav-bar.css';
+@import 'components/hero/_sponsors.css';
+
+@import 'components/step-by-step-instructions/_step-by-step-instructions.css';
+@import 'components/step-by-step-instructions/_step-list.css';
+@import 'components/step-by-step-instructions/_step-card.css';
 
 @import '_media.css';

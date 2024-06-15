@@ -21,3 +21,11 @@
 	font-weight: 400;
 	font-style: normal;
 }
+
+@font-face {
+	font-family: 'Lexend Deca';
+	src: local('Lexend Deca'), url('../fonts/LexendDeca-Regular.woff2') format('woff2'),
+		url('../fonts/LexendDeca-Regular.woff') format('woff');
+	font-weight: 400;
+	font-style: normal;
+}

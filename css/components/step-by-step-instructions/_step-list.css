@@ -1,0 +1,17 @@
+.step-list {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+}
+.step-list__item:not(:last-child) {
+	margin-right: 15px;
+}
+
+.step-list__item:nth-child(even) .step-card:after {
+	transform: scale(1, -1);
+	top: 5%;
+}
+
+.step-list__item:last-child .step-card:after {
+	content: none;
+}

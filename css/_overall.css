@@ -4,6 +4,9 @@
 	padding-left: 15px;
 	padding-right: 15px;
 }
+.container--main {
+	max-width: 1267px;
+}
 button {
 	padding: 0;
 	border: none;

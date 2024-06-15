@@ -1,11 +1,12 @@
 .hero {
 	background: rgb(30, 60, 114);
-	background: url('../../img/pattern-bg.svg'), url('../../img/pattern-bg-2.svg') no-repeat 85% 33%,
+	background: url('../../../img/pattern-bg.svg'), url('../../../img/pattern-bg-2.svg') no-repeat 85% 33%,
 		linear-gradient(135deg, rgba(30, 60, 114, 1) 0%, rgba(42, 82, 152, 1) 100%);
 	color: #ffffff;
 	font-size: 1.125rem;
 	overflow: hidden;
-	mask-image: url('../../img/wtf.svg');
+	mask-image: url('../../../img/wtf.svg');
+	mask-size: cover;
 }
 
 .hero__content {
@@ -45,7 +46,7 @@
 	padding-left: 32px;
 }
 .hero-content__button-video::before {
-	content: url('../../img/play.svg');
+	content: url('../../../img/play.svg');
 	position: absolute;
 	left: 0;
 	top: -10%;

@@ -1,0 +1,25 @@
+.step-by-step-instructions {
+	padding-top: 90px;
+	padding-bottom: 150px;
+
+	background: url('../../../img/pattern.svg'),
+		linear-gradient(135deg, rgba(30, 60, 114, 1) 0%, rgba(42, 82, 152, 1) 100%);
+}
+.step-by-step-instructions .container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.step-by-step-instructions .container > *:last-child {
+	margin-top: 140px;
+}
+.step-by-step-instructions__subtitle {
+	text-transform: uppercase;
+	font-size: 0.9em;
+	color: #ffffff;
+	padding-bottom: 5px;
+}
+.step-by-step-instructions__title {
+	font-size: 2.25em;
+	color: #ffffff;
+}
