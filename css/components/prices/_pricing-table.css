@@ -11,7 +11,7 @@
 }
 
 .recommended-tariff:before {
-	content: attr(value);
+	content: attr(aria-label);
 	display: block;
 	position: absolute;
 	left: 0;

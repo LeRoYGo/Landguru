@@ -1,6 +1,8 @@
 .sponsors {
 	display: flex;
 	align-items: center;
+}
+.sponsors__title {
 	color: rgba(255, 255, 255, 0.6);
 }
 .sponsors__list {
