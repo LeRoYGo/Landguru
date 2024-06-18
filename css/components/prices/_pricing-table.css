@@ -11,12 +11,13 @@
 }
 
 .recommended-tariff:before {
-	content: attr(aria-label);
+	content: 'Recommended';
 	display: block;
 	position: absolute;
 	left: 0;
 	top: -100%;
 	padding: 10px;
+	color: #ffffff;
 	background-color: #ef9e48;
 	border-radius: 3px;
 }
