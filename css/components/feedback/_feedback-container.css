@@ -1,0 +1,8 @@
+.feedback-container {
+	display: flex;
+	width: 300%;
+	transition: transform 0.5s;
+}
+.feedback-container__item:not(:last-child) {
+	margin-right: 52px;
+}

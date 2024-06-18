@@ -1,0 +1,28 @@
+.prices {
+	padding-top: 90px;
+	padding-bottom: 150px;
+
+	background: url('../../../img/pattern.svg'),
+		linear-gradient(135deg, rgba(30, 60, 114, 1) 0%, rgba(42, 82, 152, 1) 100%);
+}
+.prices .container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.prices__subtitle {
+	text-transform: uppercase;
+	font-size: 0.9em;
+	color: #ffffff;
+	padding-bottom: 5px;
+}
+.prices__title {
+	font-size: 2.25em;
+	color: #ffffff;
+}
+
+.prices-list {
+	display: flex;
+	gap: 30px;
+}

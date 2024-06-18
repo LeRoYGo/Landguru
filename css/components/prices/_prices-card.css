@@ -1,0 +1,18 @@
+.prices-card {
+	padding: 80px 40px 50px;
+	background-color: #2f5392;
+	border-radius: 10px;
+	max-width: 480px;
+
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+}
+
+.prices-card--white-card {
+	background-color: #ffffff;
+}
+
+.prices-card button.button {
+	align-self: center;
+}

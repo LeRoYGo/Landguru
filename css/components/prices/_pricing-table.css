@@ -1,0 +1,46 @@
+.pricing-table {
+	margin-bottom: 60px;
+	width: 100%;
+	display: grid;
+	grid-template-columns: repeat(2, auto);
+	grid-template-rows: repeat(2, auto);
+	grid-template-areas:
+		'title price'
+		'description price';
+	position: relative;
+}
+
+.recommended-tariff:before {
+	content: attr(value);
+	display: block;
+	position: absolute;
+	left: 0;
+	top: -100%;
+	padding: 10px;
+	background-color: #ef9e48;
+	border-radius: 3px;
+}
+
+.pricing-table__name-tariff {
+	grid-area: title;
+	font-weight: 700;
+	font-size: 1.4em;
+	margin-bottom: 10px;
+}
+.pricing-table__description-tariff {
+	grid-area: description;
+	display: block;
+	font-size: 1em;
+}
+.pricing-table__price {
+	grid-area: price;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+	justify-content: space-between;
+}
+.pricing-table__price .price {
+	font-weight: 700;
+	font-size: 1.65em;
+	color: #25cb9e;
+}

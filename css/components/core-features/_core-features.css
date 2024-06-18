@@ -1,0 +1,23 @@
+.core-features {
+	padding-bottom: 150px;
+	padding-top: 150px;
+}
+.core-features--rev {
+	padding-top: 50px;
+	padding-bottom: 0;
+}
+.core-features .container--core-features {
+	display: flex;
+	align-items: center;
+}
+.core-features--rev .container--core-features {
+	flex-direction: row-reverse;
+}
+.core-features__body {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+}
+.core-features__img {
+	object-fit: cover;
+}

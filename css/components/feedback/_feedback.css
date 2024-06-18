@@ -1,0 +1,39 @@
+.feedback {
+	overflow: hidden;
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+.feedback .container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.feedback__carousel {
+	position: relative;
+	width: 100%;
+}
+.feedback__subtitle {
+	text-transform: uppercase;
+	font-size: 0.9em;
+	color: #244886;
+	padding-bottom: 5px;
+}
+.feedback__title {
+	font-size: 2.25em;
+	color: #0f2137;
+}
+
+.arrow-box {
+	display: flex;
+	align-items: center;
+	column-gap: 14px;
+	padding-top: 50px;
+}
+
+.arrow-next:after,
+.arrow-prev:after {
+	content: url('../../../img/arrow.svg');
+}
+.arrow-prev:after {
+	content: url('../../../img/arrow-rev.svg');
+}

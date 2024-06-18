@@ -1,0 +1,28 @@
+.features-list {
+	max-width: 350px;
+	margin-bottom: 60px;
+}
+
+.features-list__item {
+	padding-left: 34px;
+	position: relative;
+}
+
+.features_on:before,
+.features_off:before {
+	content: url('../../../img/features_on.svg');
+	display: block;
+	position: absolute;
+	width: 20px;
+	height: 20px;
+	left: 0;
+	top: 20%;
+}
+
+.features_off:before {
+	content: url('../../../img/features_off.svg');
+}
+
+.features-list__item:not(:last-child) {
+	margin-bottom: 30px;
+}

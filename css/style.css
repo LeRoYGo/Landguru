@@ -7,13 +7,31 @@
 /* components imports */
 @import './components/_button.css';
 
+/* components hero */
 @import './components/hero/_hero.css';
 @import './components/hero/_header.css';
 @import './components/hero/_nav-bar.css';
 @import './components/hero/_sponsors.css';
 
+/* components step-by-step instructions */
 @import './components/step-by-step-instructions/_step-by-step-instructions.css';
 @import './components/step-by-step-instructions/_step-list.css';
 @import './components/step-by-step-instructions/_step-card.css';
 
-@import './_media.css';
+/* components prices */
+@import './components/prices/_prices.css';
+@import './components/prices/_prices-card.css';
+@import './components/prices/_features-list.css';
+@import './components/prices/_pricing-table.css';
+
+/* components feedback */
+@import './components/feedback/_reviews-card.css';
+@import './components/feedback/_feedback.css';
+@import './components/feedback/_feedback-container.css';
+
+/* components core-features */
+@import './components/core-features/_core-features-сontent.css';
+@import './components/core-features/_core-features.css';
+
+/* components footer */
+@import './components/footer/_footer.css';

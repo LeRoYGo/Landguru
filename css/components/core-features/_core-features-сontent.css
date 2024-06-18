@@ -1,0 +1,16 @@
+.core-features-сontent {
+}
+.core-features-сontent__subtitle {
+	font-weight: 700;
+	font-size: 0.9em;
+	padding-bottom: 10px;
+}
+.core-features-сontent__title {
+	font-weight: 700;
+	font-size: 3em;
+	padding-bottom: 40px;
+}
+.core-features-сontent__description {
+	line-height: 3;
+	padding-bottom: 40px;
+}

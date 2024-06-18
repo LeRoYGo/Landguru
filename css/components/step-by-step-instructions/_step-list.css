@@ -2,9 +2,8 @@
 	display: flex;
 	justify-content: space-between;
 	align-items: flex-start;
-}
-.step-list__item:not(:last-child) {
-	margin-right: 15px;
+	flex-wrap: wrap;
+	row-gap: 30px;
 }
 
 .step-list__item:nth-child(even) .step-card:after {

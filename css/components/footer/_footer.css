@@ -1,0 +1,21 @@
+.footer {
+	display: flex;
+	justify-content: space-between;
+	column-gap: 30px;
+	padding: 100px 0 130px;
+}
+.footer-ist {
+	display: flex;
+	flex-direction: column;
+}
+.footer-ist__item {
+	color: #02073e;
+	line-height: 2.5;
+	font-size: 0.875em;
+}
+
+.footer-ist__item:first-child {
+	font-size: 1.125em;
+	font-weight: 500;
+	margin-bottom: 30px;
+}

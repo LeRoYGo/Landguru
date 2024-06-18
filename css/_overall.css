@@ -7,10 +7,21 @@
 .container--main {
 	max-width: 1267px;
 }
+
+container--core-features {
+	max-width: 1293px;
+}
+.container--footer {
+	max-width: 900px;
+}
 button {
 	padding: 0;
 	border: none;
 	color: inherit;
 	background-color: transparent;
 	cursor: pointer;
+}
+
+.white-text {
+	color: #ffffff;
 }

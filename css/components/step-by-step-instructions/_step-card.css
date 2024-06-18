@@ -6,9 +6,9 @@
 	content: url('../../../img/arrow-stroke.svg');
 	position: absolute;
 	top: 0;
-	right: 0;
-	width: 202px;
-	height: 41px;
+	right: 6%;
+	width: 200px;
+	height: 40px;
 	opacity: 0.5;
 }
 .step-card > *:not(:last-child) {
