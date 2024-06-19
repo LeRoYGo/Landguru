@@ -9,20 +9,10 @@
 	align-items: center;
 }
 .feedback__carousel {
+	padding-top: 80px;
 	position: relative;
 	width: 100%;
 }
-.feedback__subtitle {
-	text-transform: uppercase;
-	font-size: 0.9em;
-	color: #244886;
-	padding-bottom: 5px;
-}
-.feedback__title {
-	font-size: 2.25em;
-	color: #0f2137;
-}
-
 .arrow-box {
 	display: flex;
 	align-items: center;

@@ -1,12 +1,13 @@
-.core-features-сontent {
-}
 .core-features-сontent__subtitle {
 	font-weight: 700;
-	font-size: 0.9em;
+	font-size: 0.875em;
 	padding-bottom: 10px;
 	text-transform: uppercase;
+	color: #244886;
+	letter-spacing: 0.2em;
 }
 .core-features-сontent__title {
+	letter-spacing: -0.05em;
 	font-weight: 700;
 	font-size: 3em;
 	padding-bottom: 40px;
@@ -14,4 +15,5 @@
 .core-features-сontent__description {
 	line-height: 3;
 	padding-bottom: 40px;
+	font-size: 1.125em;
 }
