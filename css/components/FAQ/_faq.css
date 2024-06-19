@@ -1,0 +1,25 @@
+.FAQ {
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+
+.FAQ .container--core-FAQ {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.FAQ__subtitle {
+	color: #254887;
+	font-size: 1em;
+	text-transform: uppercase;
+}
+.FAQ__title {
+	font-size: 2.25em;
+}
+.FAQ-list-issues {
+	padding-top: 100px;
+}
+.FAQ-list-issues__item:not(:first-child) {
+	margin-top: 20px;
+}

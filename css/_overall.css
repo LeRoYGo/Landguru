@@ -8,8 +8,15 @@
 	max-width: 1267px;
 }
 
-container--core-features {
+.container--core-features {
 	max-width: 1293px;
+}
+.container--core-featuresV2 {
+	justify-content: center;
+	column-gap: 30px;
+}
+.container--core-FAQ {
+	max-width: 760px;
 }
 .container--footer {
 	max-width: 900px;
@@ -24,4 +31,8 @@ button {
 
 .white-text {
 	color: #ffffff;
+}
+
+.flex {
+	display: flex;
 }

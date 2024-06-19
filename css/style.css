@@ -33,5 +33,13 @@
 @import './components/core-features/_core-features-сontent.css';
 @import './components/core-features/_core-features.css';
 
+/* components core-features */
+@import './components/quality-features/_quality-features-card.css';
+@import './components/quality-features/_quality-features.css';
+
+/* components FAQ */
+@import './components/FAQ/_issues-card.css';
+@import './components/FAQ/_faq.css';
+
 /* components footer */
 @import './components/footer/_footer.css';

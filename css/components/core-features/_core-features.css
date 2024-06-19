@@ -2,9 +2,14 @@
 	padding-bottom: 150px;
 	padding-top: 150px;
 }
+
 .core-features--rev {
 	padding-top: 50px;
 	padding-bottom: 0;
+}
+.core-features--V2 {
+	padding-bottom: 80px;
+	padding-top: 100px;
 }
 .core-features .container--core-features {
 	display: flex;
@@ -18,6 +23,43 @@
 	flex-direction: column;
 	align-items: flex-start;
 }
+.core-features__bodyV2 {
+	max-width: 540px;
+	padding: 20px;
+	align-items: flex-start;
+}
 .core-features__img {
 	object-fit: cover;
+}
+
+.core-features-list__item:not(:last-child) {
+	margin-bottom: 40px;
+}
+
+.features {
+	padding-left: 75px;
+	position: relative;
+}
+.features:before {
+	content: url('../../../img/core-features-1.svg');
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 57px;
+	height: 57px;
+	background-color: rgba(255, 65, 109, 0.1);
+	border-radius: 40%;
+
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+.core-features-list .core-features-list__item:nth-child(2) .features:before {
+	content: url('../../../img/core-features-2.svg');
+}
+.features__name {
+	padding-bottom: 20px;
+}
+.features__description {
+	max-width: 355px;
 }

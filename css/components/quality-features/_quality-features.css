@@ -1,0 +1,26 @@
+.quality-features {
+	padding-top: 60px;
+	padding-bottom: 100px;
+}
+.quality-features .container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.quality-features__subtitle {
+	color: #244886;
+}
+.quality-features__title {
+	padding-top: 10px;
+}
+.quality-features__list {
+	padding-top: 100px;
+	display: flex;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+	gap: 50px;
+	width: 100%;
+}
+.quality-features__item {
+	flex-basis: 30%;
+}
