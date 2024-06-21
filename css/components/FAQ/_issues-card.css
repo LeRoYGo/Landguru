@@ -34,7 +34,7 @@
 	width: 2px;
 }
 
-.issues-card-open.issues-card__circle::after {
+.issues-card-open .issues-card__circle::after {
 	content: none;
 }
 
@@ -53,6 +53,6 @@
 	transition: max-height 1s;
 }
 
-.issues-card__text.issues-card-open {
+.issues-card-open .issues-card__text {
 	max-height: 100%;
 }

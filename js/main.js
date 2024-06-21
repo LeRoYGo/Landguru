@@ -5,9 +5,6 @@ parentList.forEach((el) => {
 });
 
 function fdwf() {
-	const child = this.querySelector('.issues-card__text');
-	const child2 = this.querySelector('.issues-card__circle');
-
-	child.classList.toggle('issues-card-open');
-	child2.classList.toggle('issues-card-open');
+	console.log(this);
+	this.classList.toggle('issues-card-open');
 }
