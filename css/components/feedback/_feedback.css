@@ -23,6 +23,7 @@
 .arrow-next:after,
 .arrow-prev:after {
 	content: url('../../../img/arrow.svg');
+	cursor: pointer;
 }
 .arrow-prev:after {
 	content: url('../../../img/arrow-rev.svg');

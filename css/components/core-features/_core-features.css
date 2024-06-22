@@ -19,9 +19,6 @@
 	max-width: 540px;
 	padding: 20px;
 }
-.core-features__img {
-	object-fit: cover;
-}
 
 .core-features-list__item:not(:last-child) {
 	margin-bottom: 40px;

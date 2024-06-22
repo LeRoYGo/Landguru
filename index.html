@@ -11,7 +11,7 @@
 			<div class="container">
 				<header class="header">
 					<a href="#" class="header__logo"><img src="./img/logo.svg" alt="logo Landguru" /></a>
-					<nav class="header__nav nav">
+					<nav id="header__nav" class="header__nav nav">
 						<ul class="nav-list">
 							<li class="nav__item"><a class="nav__link" href="#">Home</a></li>
 							<li class="nav__item"><a class="nav__link" href="#">Adversite</a></li>
@@ -20,6 +20,9 @@
 						</ul>
 					</nav>
 					<button class="button">Get Started</button>
+					<button id="burger-menu_button" class="burger-menu_button">
+						<spun class="burger-menu_lines"></spun>
+					</ф>
 				</header>
 				<div class="hero__content">
 					<img class="hero__content-img" src="./img/mockup-hero.png" alt="mockup phone" />
@@ -29,8 +32,10 @@
 							Get your blood tests delivered at let home collect sample from the victory of the managments
 							that supplies best design system guidelines ever.
 						</p>
-						<button class="hero-content__button button button--white">Get Started</button>
-						<button class="hero-content__button-video">Watch Video</button>
+						<div>
+							<button class="hero-content__button button button--white">Get Started</button>
+							<button class="hero-content__button-video">Watch Video</button>
+						</div>
 						<div class="hero-content__sponsors sponsors">
 							<span class="sponsors__title">Sponsored by:</span>
 							<ul class="sponsors__list">
@@ -234,7 +239,7 @@
 				<h2 class="global-title">Meet Client Satisfaction</h2>
 
 				<div class="feedback__carousel">
-					<ul class="feedback-container">
+					<ul id="carousel" class="feedback-container">
 						<li class="feedback-container__item">
 							<article class="reviews-card">
 								<div class="rating">
@@ -343,8 +348,8 @@
 					</ul>
 				</div>
 				<div class="arrow-box">
-					<span class="arrow-prev"></span>
-					<span class="arrow-next"></span>
+					<span id="arrow-prev" class="arrow-prev"></span>
+					<span id="arrow-next" class="arrow-next"></span>
 				</div>
 			</div>
 		</section>
@@ -364,63 +369,57 @@
 			<div class="container">
 				<h3 class="global-subtitle white-text">Whats the function</h3>
 				<h2 class="global-title white-text">Let`s see how it works</h2>
-				<ul class="prices-list">
-					<li class="prices-list__item">
-						<article class="prices-card white-text">
-							<div class="pricing-table">
-								<h3 class="pricing-table__name-tariff">Free Plan</h3>
-								<span class="pricing-table__description-tariff">For Small teams or office</span>
-							</div>
-							<ul class="features-list">
-								<li class="features-list__item features_on">
-									Ultimate access to all course, exercises and assessments
-								</li>
-								<li class="features-list__item features_on">
-									Free acess for all kind of exercise corrections with downloads.
-								</li>
-								<li class="features-list__item features_on">
-									Total assessment corrections with free download access system
-								</li>
-								<li class="features-list__item features_off">
-									Unlimited download of courses on the mobile app contents
-								</li>
-								<li class="features-list__item features_off">
-									Download and print courses and exercises in PDF
-								</li>
-							</ul>
-							<button class="button button--white">Signup Now</button>
-						</article>
-					</li>
-					<li class="prices-list__item">
-						<article class="prices-card prices-card--white-card">
-							<div class="pricing-table recommended-tariff">
-								<h3 class="pricing-table__name-tariff">Premium</h3>
-								<span class="pricing-table__description-tariff">For startup enterprise</span>
-								<div class="pricing-table__price">
-									Starting from <span class="price">49.99/mo</span>
-								</div>
-							</div>
-							<ul class="features-list">
-								<li class="features-list__item features_on">
-									Ultimate access to all course, exercises and assessments
-								</li>
-								<li class="features-list__item features_on">
-									Free acess for all kind of exercise corrections with downloads.
-								</li>
-								<li class="features-list__item features_on">
-									Total assessment corrections with free download access system
-								</li>
-								<li class="features-list__item features_on">
-									Unlimited download of courses on the mobile app contents
-								</li>
-								<li class="features-list__item features_on">
-									Download and print courses and exercises in PDF
-								</li>
-							</ul>
-							<button class="button button--blue">Signup Now</button>
-						</article>
-					</li>
-				</ul>
+				<div class="prices-list">
+					<article class="prices-card white-text">
+						<div class="pricing-table">
+							<h3 class="pricing-table__name-tariff">Free Plan</h3>
+							<span class="pricing-table__description-tariff">For Small teams or office</span>
+						</div>
+						<ul class="features-list">
+							<li class="features-list__item features_on">
+								Ultimate access to all course, exercises and assessments
+							</li>
+							<li class="features-list__item features_on">
+								Free acess for all kind of exercise corrections with downloads.
+							</li>
+							<li class="features-list__item features_on">
+								Total assessment corrections with free download access system
+							</li>
+							<li class="features-list__item features_off">
+								Unlimited download of courses on the mobile app contents
+							</li>
+							<li class="features-list__item features_off">
+								Download and print courses and exercises in PDF
+							</li>
+						</ul>
+						<button class="button button--white">Signup Now</button>
+					</article>
+					<article class="prices-card prices-card--white-card">
+						<div class="pricing-table recommended-tariff">
+							<h3 class="pricing-table__name-tariff">Premium</h3>
+							<span class="pricing-table__description-tariff">For startup enterprise</span>
+							<div class="pricing-table__price">Starting from <span class="price">49.99/mo</span></div>
+						</div>
+						<ul class="features-list">
+							<li class="features-list__item features_on">
+								Ultimate access to all course, exercises and assessments
+							</li>
+							<li class="features-list__item features_on">
+								Free acess for all kind of exercise corrections with downloads.
+							</li>
+							<li class="features-list__item features_on">
+								Total assessment corrections with free download access system
+							</li>
+							<li class="features-list__item features_on">
+								Unlimited download of courses on the mobile app contents
+							</li>
+							<li class="features-list__item features_on">
+								Download and print courses and exercises in PDF
+							</li>
+						</ul>
+						<button class="button button--blue">Signup Now</button>
+					</article>
+				</div>
 			</div>
 		</section>
 		<section class="FAQ">
@@ -428,55 +427,45 @@
 				<h3 class="global-subtitle">Frequent Question</h3>
 				<h2 class="global-title">Do you have any question</h2>
 				<ul class="FAQ-list-issues">
-					<li class="FAQ-list-issues__item">
-						<article class="issues-card">
-							<span class="issues-card__circle"></span>
-							<h3 class="issues-card__title">How to contact with riders emergency?</h3>
-							<p class="issues-card__text">
-								Get your blood tests delivered at the home collect a sample from management news. Get
-								your blood tests delivered at the home collect a sample from management news. Get your
-								blood tests delivered at the home collect a sample from management news. Get your blood
-								tests delivered at the home.
-							</p>
-						</article>
+					<li class="FAQ-list-issues__item issues-card">
+						<span class="issues-card__circle"></span>
+						<h3 class="issues-card__title">How to contact with riders emergency?</h3>
+						<p class="issues-card__text">
+							Get your blood tests delivered at the home collect a sample from management news. Get your
+							blood tests delivered at the home collect a sample from management news. Get your blood
+							tests delivered at the home collect a sample from management news. Get your blood tests
+							delivered at the home.
+						</p>
 					</li>
-					<li class="FAQ-list-issues__item">
-						<article class="issues-card">
-							<span class="issues-card__circle"></span>
-							<h3 class="issues-card__title">
-								App installation failed, how to update system information?
-							</h3>
-							<p class="issues-card__text">
-								Get your blood tests delivered at the home collect a sample from management news. Get
-								your blood tests delivered at the home collect a sample from management news. Get your
-								blood tests delivered at the home collect a sample from management news. Get your blood
-								tests delivered at the home.
-							</p>
-						</article>
+					<li class="FAQ-list-issues__item issues-card">
+						<span class="issues-card__circle"></span>
+						<h3 class="issues-card__title">App installation failed, how to update system information?</h3>
+						<p class="issues-card__text">
+							Get your blood tests delivered at the home collect a sample from management news. Get your
+							blood tests delivered at the home collect a sample from management news. Get your blood
+							tests delivered at the home collect a sample from management news. Get your blood tests
+							delivered at the home.
+						</p>
 					</li>
-					<li class="FAQ-list-issues__item">
-						<article class="issues-card">
-							<span class="issues-card__circle"></span>
-							<h3 class="issues-card__title">Website reponse taking time, how to improve?</h3>
-							<p class="issues-card__text">
-								Get your blood tests delivered at the home collect a sample from management news. Get
-								your blood tests delivered at the home collect a sample from management news. Get your
-								blood tests delivered at the home collect a sample from management news. Get your blood
-								tests delivered at the home.
-							</p>
-						</article>
+					<li class="FAQ-list-issues__item issues-card">
+						<span class="issues-card__circle"></span>
+						<h3 class="issues-card__title">Website reponse taking time, how to improve?</h3>
+						<p class="issues-card__text">
+							Get your blood tests delivered at the home collect a sample from management news. Get your
+							blood tests delivered at the home collect a sample from management news. Get your blood
+							tests delivered at the home collect a sample from management news. Get your blood tests
+							delivered at the home.
+						</p>
 					</li>
-					<li class="FAQ-list-issues__item">
-						<article class="issues-card">
-							<span class="issues-card__circle"></span>
-							<h3 class="issues-card__title">New update fixed all bug and issues</h3>
-							<p class="issues-card__text">
-								Get your blood tests delivered at the home collect a sample from management news. Get
-								your blood tests delivered at the home collect a sample from management news. Get your
-								blood tests delivered at the home collect a sample from management news. Get your blood
-								tests delivered at the home.
-							</p>
-						</article>
+					<li class="FAQ-list-issues__item issues-card">
+						<span class="issues-card__circle"></span>
+						<h3 class="issues-card__title">New update fixed all bug and issues</h3>
+						<p class="issues-card__text">
+							Get your blood tests delivered at the home collect a sample from management news. Get your
+							blood tests delivered at the home collect a sample from management news. Get your blood
+							tests delivered at the home collect a sample from management news. Get your blood tests
+							delivered at the home.
+						</p>
 					</li>
 				</ul>
 			</div>

@@ -5,7 +5,7 @@
 	color: #ffffff;
 	font-size: 1.125rem;
 	overflow: hidden;
-	mask-image: url('../../../img/wtf.svg');
+	mask-image: url('../../../img/mask-hero.svg');
 	mask-size: cover;
 }
 
@@ -49,7 +49,7 @@
 	content: url('../../../img/play.svg');
 	position: absolute;
 	left: 0;
-	top: -10%;
+	top: -25%;
 }
 .hero-content__sponsors {
 }

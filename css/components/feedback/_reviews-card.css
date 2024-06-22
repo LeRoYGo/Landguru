@@ -3,7 +3,7 @@
 	grid-template-columns: repeat(2, 1fr);
 	grid-template-rows: repeat(4, auto);
 	max-width: 368px;
-	padding: 41px;
+	padding: 40px;
 	box-shadow: 0px 6px 47px 5px rgba(38, 78, 118, 0.1);
 }
 

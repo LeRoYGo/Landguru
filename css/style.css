@@ -43,3 +43,6 @@
 
 /* components footer */
 @import './components/footer/_footer.css';
+
+/* feffe */
+@import './_media.css';

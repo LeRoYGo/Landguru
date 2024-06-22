@@ -44,10 +44,12 @@ button {
 	color: #244886;
 	padding-bottom: 10px;
 	letter-spacing: 0.2em;
+	text-align: center;
 }
 .global-title {
 	font-weight: 700;
 	font-size: 36px;
+	text-align: center;
 }
 
 .white-text.global-subtitle {
